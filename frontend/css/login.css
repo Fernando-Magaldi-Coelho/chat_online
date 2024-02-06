@@ -1,0 +1,44 @@
+.form_section{
+    padding: 1rem;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.form_section h2{
+    color: white;
+}
+
+.form_section button{
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.form_section input{
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #221f1f;
+}
+
+.form_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_all{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
