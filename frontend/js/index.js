@@ -95,7 +95,7 @@ const handleSubmit = (e) =>{
     login.style.display = "none";
     chat.style.display = "flex";
 
-    webscoket = new WebSocket('wss://chat-online-xmnt.onrender.com')
+    webscoket = new WebSocket('https://chat-backend-6kio.onrender.com')
     webscoket.onmessage = processMessege
 
    // console.log(user); 
